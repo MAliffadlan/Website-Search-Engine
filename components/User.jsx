@@ -5,7 +5,7 @@ import { useState } from 'react';
 export default function User() {
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => {
-    window.location.href = 'https://bagusok.github.io/';
+    window.location.href = 'https://maliffadlanv2.netlify.app/';
   };
 
   return (
@@ -22,7 +22,7 @@ export default function User() {
         <div className="absolute right-8 top-[4.5rem] flex flex-col w-48 bg-white shadow-md rounded-md border border-slate-200 p-2">
           <div className="form-group flex flex-row gap-3 rounded-md hover:bg-yellow-400 p-2 items-center">
             <Image
-              src="/Logo BAitul Hikmah2.png"
+              src="/Logo Baitul Hikmah2.png"
               width={40}
               height="40"
               onClick={() => setIsOpen(!isOpen)}
@@ -35,7 +35,7 @@ export default function User() {
           >
             <FiUser />
             <h2 className="text-sm">
-              <a href="https://bagusok.github.io/">Akun</a>
+              <a href="https://maliffadlanv2.netlify.app/">Akun</a>
             </h2>
           </div>
         </div>
