@@ -30,7 +30,7 @@ export default function Home() {
         <nav className="flex justify-end px-3 py-2 h-16 md:min-h-8">
           <div className="flex h-full flex-row gap-3 items-center">
             <a href="#" className="text-sm font-normal hover:opacity-75">
-              GKMail
+              Gmail
             </a>
             <a
               href="#"
@@ -44,7 +44,7 @@ export default function Home() {
         </nav>
         <div className="flex flex-col w-full items-center text-center gap-4 mt-[6rem]">
           <h1 className="text-3xl md:text-5xl font-semibold tracking-wide text-orange-400">
-            Gatot Kaca
+            Baitul Hikmah
           </h1>
           <div className="md:w-3/6 mt-8">
             <form onSubmit={(e) => handleSearch(e)}>
@@ -62,7 +62,10 @@ export default function Home() {
               </div>
               <button className="text-xs font-semibold px-12 py-2 bg-slate-100 border border-slate-300 rounded-md text-gray-600 mt-7 hover:bg-gray-300">
                 Search
+              </button> <span><button className="text-xs font-semibold px-12 py-2 bg-slate-100 border border-slate-300 rounded-md text-gray-600 mt-7 hover:bg-gray-300">
+                <a href="https://www.google.com/doodles">Saya Lagi Beruntung</a> 
               </button>
+              </span>
             </form>
           </div>
         </div>
