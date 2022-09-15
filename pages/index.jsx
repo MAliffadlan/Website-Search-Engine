@@ -33,19 +33,20 @@ export default function Home() {
               Gmail
             </a>
             <a
-              href="#"
+              href="https://maliffadlan.github.io/coming-soon-page/"
               className="text-sm font-normal hover:opacity-75 mr-12 mdmr-0"
             >
               Gambar
             </a>
-
+            
             <User />
+          
           </div>
         </nav>
         <div className="flex flex-col w-full items-center text-center gap-4 mt-[6rem]">
-          <h1 className="text-3xl md:text-5xl font-semibold tracking-wide text-orange-400">
-            Baitul Hikmah
-          </h1>
+          <h5 className="text-3xl md:text-5xl font-semibold tracking-wide text-orange-400">
+            Baitul Hikmah Search
+          </h5>
           <div className="md:w-3/6 mt-8">
             <form onSubmit={(e) => handleSearch(e)}>
               <div className="form-group relative">
@@ -60,6 +61,7 @@ export default function Home() {
                   <FiSearch />
                 </div>
               </div>
+             
               <button className="text-xs font-semibold px-12 py-2 bg-slate-100 border border-slate-300 rounded-md text-gray-600 mt-7 hover:bg-gray-300">
                 Search
               </button> <span><button className="text-xs font-semibold px-12 py-2 bg-slate-100 border border-slate-300 rounded-md text-gray-600 mt-7 hover:bg-gray-300">

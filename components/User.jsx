@@ -21,6 +21,7 @@ export default function User() {
       {isOpen && (
         <div className="absolute right-8 top-[4.5rem] flex flex-col w-48 bg-white shadow-md rounded-md border border-slate-200 p-2">
           <div className="form-group flex flex-row gap-3 rounded-md hover:bg-yellow-400 p-2 items-center">
+            
             <Image
               src="/Logo Baitul Hikmah2.png"
               width={40}

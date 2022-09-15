@@ -5,6 +5,7 @@ export default function Footer() {
         Katanya
         <span className="font-bold"> Baitul Hikmah Search Engine</span>
       </p>
+   
     </footer>
   );
 }
