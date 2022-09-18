@@ -29,9 +29,10 @@ export default function Home() {
       <div className="flex flex-col min-h-screen px-5 relative">
         <nav className="flex justify-end px-3 py-2 h-16 md:min-h-8">
           <div className="flex h-full flex-row gap-3 items-center">
-            <a href="#" className="text-sm font-normal hover:opacity-75">
-              Gmail
+            <a href="https://baitulhikmahchat.vercel.app/" className="text-sm font-normal hover:opacity-75">
+              Chatting
             </a>
+            
             <a
               href="https://maliffadlan.github.io/coming-soon-page/"
               className="text-sm font-normal hover:opacity-75 mr-12 mdmr-0"
