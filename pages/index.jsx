@@ -29,7 +29,7 @@ export default function Home() {
       <div className="flex flex-col min-h-screen px-5 relative">
         <nav className="flex justify-end px-3 py-2 h-16 md:min-h-8">
           <div className="flex h-full flex-row gap-3 items-center">
-            <a href="https://baitulhikmahchat.vercel.app/" className="text-sm font-normal hover:opacity-75">
+            <a href="https://node-chat-app.onrender.com/" className="text-sm font-normal hover:opacity-75">
               Chatting
             </a>
             
